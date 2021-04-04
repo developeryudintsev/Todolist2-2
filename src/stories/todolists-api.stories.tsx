@@ -23,19 +23,17 @@ export const GetTodolists = () => {
 
     return <div> {JSON.stringify(state)}</div>
 }
-
 export const CreateTodolist = () => {
-    const [state, setState] = useState<any>(null)
-    useEffect(() => {
-        // axios.post('https://social-network.samuraijs.com/api/1.1/todo-lists', {title: 'React'}, settings)
-        todoApi.createTodos().then((res) => {
-                setState(res.data);
-            })
-    }, [])
-
-    return <div> {JSON.stringify(state)}</div>
+    // const [state, setState] = useState<any>(null)
+    // useEffect(() => {
+    //     // axios.post('https://social-network.samuraijs.com/api/1.1/todo-lists', {title: 'React'}, settings)
+    //     todoApi.createTodos().then((res) => {
+    //         setState(res.data);
+    //     })
+    // }, [])
+    //
+    // return <div> {JSON.stringify(state)}</div>
 }
-
 export const DeleteTodolist = () => {
     const [state, setState] = useState<any>(null);
     // let todolistID='9b105ec2-5aa5-4edd-a0ee-31d8e505f6c2';
@@ -48,12 +46,54 @@ export const DeleteTodolist = () => {
 
     return <div> {JSON.stringify(state)}</div>
 }
-
 export const UpdateTodolistTitle = () => {
     const [state, setState] = useState<any>(null);
     // let todolistID='555e0458-b266-411d-95c8-aa539c95eb01';
     useEffect(() => {
         todoApi.UpdateTodos()
+            .then((res) => {
+                setState(res.data);
+            })
+    }, [])
+
+    return <div> {JSON.stringify(state)}</div>
+}
+export const GetTasks = () => {
+    // const [state, setState] = useState<any>(null)
+    // useEffect(() => {
+    //     // axios.get('https://social-network.samuraijs.com/api/1.1/todo-lists', settings)
+    //     todoApi.getTasks()
+    //         .then((res) => setState(res.data))
+    // }, [])
+    //
+    // return <div> {JSON.stringify(state)}</div>
+}
+export const CreateTask = () => {
+    // const [state, setState] = useState<any>(null)
+    // useEffect(() => {
+    //        todoApi.createNewTask().then((res) => {
+    //         setState(res.data);
+    //     })
+    // }, [])
+    // return <div> {JSON.stringify(state)}</div>
+}
+export const UpdateTask = () => {
+    // const [state, setState] = useState<any>(null);
+    // // let todolistID='555e0458-b266-411d-95c8-aa539c95eb01';
+    // useEffect(() => {
+    //     todoApi.UpdateTask()
+    //         .then((res) => {
+    //             setState(res.data);
+    //         })
+    // }, [])
+    //
+    // return <div> {JSON.stringify(state)}</div>
+}
+export const DeleteTasks = () => {
+    const [state, setState] = useState<any>(null);
+    // let todolistID='9b105ec2-5aa5-4edd-a0ee-31d8e505f6c2';
+    useEffect(() => {
+        todoApi.DeleteTasks()
             .then((res) => {
                 setState(res.data);
             })
