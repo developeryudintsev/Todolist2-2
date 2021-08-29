@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51366318-b259-46d5-8258-699293357ad8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/app-reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddItemForm.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EditableSpan.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/store.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/tasks-reducer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/todolists-api.stories.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../WORK/todo2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -89,6 +79,18 @@
       <workItem from="1623000392369" duration="24000" />
       <workItem from="1623000433857" duration="11000" />
       <workItem from="1623067271819" duration="21000" />
+      <workItem from="1623138353770" duration="679000" />
+      <workItem from="1623250531669" duration="801000" />
+      <workItem from="1623567715887" duration="653000" />
+      <workItem from="1623672804984" duration="31000" />
+      <workItem from="1624880267800" duration="220000" />
+      <workItem from="1624882947834" duration="1144000" />
+      <workItem from="1625423408628" duration="634000" />
+      <workItem from="1625487247798" duration="1262000" />
+      <workItem from="1626963875639" duration="172000" />
+      <workItem from="1627577411193" duration="102000" />
+      <workItem from="1628625689995" duration="48000" />
+      <workItem from="1630159496056" duration="5340000" />
     </task>
     <task id="LOCAL-00001" summary="todolist '13.2'">
       <created>1612104811419</created>
@@ -111,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617544249982</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="16. Login, Router, App initializing, Formik">
+      <created>1623138382293</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623138382293</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +142,8 @@
     <MESSAGE value="todolist '13.2'" />
     <MESSAGE value="todolist '13.3'" />
     <MESSAGE value="04.04.2021. lesson14" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.04.2021. lesson14" />
+    <MESSAGE value="16. Login, Router, App initializing, Formik" />
+    <option name="LAST_COMMIT_MESSAGE" value="16. Login, Router, App initializing, Formik" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
